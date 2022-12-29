@@ -1,0 +1,101 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+ }
+
+ .form-container {
+     position: relative;
+     top: 50px;
+     padding: 22px;
+     font-size: 16px;
+     background-color: rgb(19, 18, 18);
+     width: 500px;
+     margin: auto;
+     color: white;
+     text-align: center;
+     background-blend-mode: lighten;
+     border-radius: 5px;
+     opacity: 0.6;
+     border: .1 rem solid #999;
+
+ }
+
+ .form-container form h3 {
+     font-size: 30px;
+     margin-bottom: 10px;
+     text-transform: uppercase;
+     color: #fff;
+ }
+
+ .form-container form .box {
+     width: 90%;
+     border-radius: 5px;
+     border: .1 rem solid #999;
+     padding: 12px 14px;
+     font-size: 18px;
+     margin: 10px 0;
+ }
+
+ .form-container form p {
+     margin-top: 20px;
+     font-size: 20px;
+     color: #fff;
+ }
+
+ .form-container form p a {
+     color: red;
+ }
+
+ .form-container form p a:hover {
+     text-decoration: underline;
+ }
+
+ .hova {
+     background-image: url("../images/ncba5.jpg");
+     height: 1150px;
+     top: 0px;
+     position: relative;
+     cursor: pointer;
+     background-position: center;
+     background-size: cover;
+     width: 100%;
+
+ }
+
+ .input {
+     padding: 5px 7px;
+     border-radius: 5px;
+     position: relative;
+ }
+
+ label {
+     font-size: 15px;
+     font-weight: bold;
+
+ }
+
+ select {
+     font-size: 12px;
+     padding: 10px 15px;
+
+ }
+
+ .button {
+     font-size: 15px;
+     width: 380px;
+     border: none;
+     background-color: #d3ad7f;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     border-radius: 5px;
+
+ }
+
+ .button:hover {
+     color: black;
+     background-color: white;
+     transition: 0.3s;
+ }
